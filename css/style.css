@@ -1,0 +1,82 @@
+:root{
+    --mainColor :   #ffffff;
+    --secondaryColor    :   #458FF6;
+    --acsentColor   :   #1A6FB5;
+    --fontColor :   #7D7987;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--fontColor);
+}
+
+.content{
+    font-size: 16px;
+    font-weight: lighter;
+    color: var(--fontColor);
+}
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header */
+.nav-link.active{
+    font-weight: bold;
+}
+/* END Header */
+
+/*  Section Hero */
+#hero{
+    min-height: 100vh;
+}
+
+#hero h1{
+    font-size: 48px;
+}
+#hero p{
+    font-size: 21px;
+    font-weight: lighter;
+    color: var(--fontColor);
+}
+
+#hero button{
+    font-size: 16px;
+    width: 190px;
+    height: 50px;
+}
+/* END Section hero */
+
+/* Section Service */
+    #service h1{
+        font-size: 36px;
+    }
+
+    #service hr{
+        border: 1px solid rgb(0, 0, 0);
+        width: 5%;
+        margin: auto;
+    }
+
+    #service .service{
+        border-radius: 20px;
+    }
+    #service .service-img{
+        width: 50px;
+    }
+
+    #service button{
+        font-size: 16px;
+        width: 150px;
+    }
+
+    #service .bg-image{
+        position: absolute;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
+/* END Section Service */
+
